@@ -22,16 +22,21 @@
 {
    max-width: 1140px;
    width: 90%;
+   padding: 1rem;
+   margin: auto;
 }
 
 .space_btw
 {
+    display: flex;
     justify-content: space-between;
 }
 
 .direction_column
 {
+    display: flex;
     flex-direction: column;
+    gap: 3rem;
 }
 
 .row
@@ -123,6 +128,34 @@
 #site_header
 {
     background-color: var(--primary);
+    position: fixed;
+    width: 100%;
+}
+
+.small_menu
+{
+    width: 30px;
+}
+
+.one,
+.two,
+.three
+{
+    width: 30px;
+}
+
+.small_menu div
+{
+    height: 4px;
+    background-color: var(--lighter);
+    margin: 5px 0;
+    border-radius:25px;
+    display: block;
+}
+
+.big_menu
+{
+    display: none;
 }
 /* #endregion Header */
 
@@ -130,6 +163,7 @@
 #site_main
 {
     background-color: var(--lighter);
+    padding-top: 6rem;
 }
 
 #planning,
@@ -137,6 +171,21 @@
 #get_started
 {
     background-color: var(--different);
+}
+
+h4
+{
+    color: var(--primary);
+}
+
+.card_demo
+{
+    background-color: var(--secondary);
+}
+
+.blue_btn
+{
+    
 }
 /* #endregion Main */
 
@@ -148,17 +197,17 @@
 /* #endregion Footer */
 
 /* #region MediaQuery */
-@media screen and (min-width:390px)
+@media screen and (min-width:768px)
 {
     
 }
 
-@media screen and (min-width:768px)
+@media screen and (min-width:992px)
 {
 
 }
 
-@media screen and (min-width:1024px)
+@media screen and (min-width:1200px)
 {
 
 }
