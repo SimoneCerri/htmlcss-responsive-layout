@@ -411,6 +411,40 @@ h4
         }
     }
 }
+
+#about_us
+{
+    & .who_is_that_pokemon
+    {
+        position: relative;
+    }
+
+    & h1 
+    {
+        color: var(--different);
+        font-size: 3rem;
+    }
+
+    & .about_description
+    {
+        padding-bottom: 3rem;
+
+        & p
+        {
+            font-size: 1.5rem;
+            color: var(--dark);
+        }
+    }
+
+    & .who_is_that_pokemon>img 
+    {
+        border-radius: 50%;
+        object-fit: cover;
+        aspect-ratio: 1;
+        padding: 9rem;
+        position: absolute;
+    }
+}
 /* #endregion Main */
 
 /* #region Footer */
