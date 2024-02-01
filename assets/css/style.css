@@ -25,10 +25,10 @@ body
 
 .container
 {
-   max-width: 1140px;
-   width: 90%;
-   padding: 1rem;
-   margin: auto;
+   max-width: 744px;
+   width: 80%;
+   margin: 0 auto;
+   /* margin: 0 -1rem; */
 }
 
 .space_btw
@@ -49,6 +49,11 @@ body
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.text_c
+{
+    text-align: center;
 }
 
 .col-12
@@ -135,6 +140,7 @@ body
     background-color: var(--primary);
     position: fixed;
     width: 100%;
+    padding: 1rem 0;
 }
 
 .small_menu
@@ -168,7 +174,7 @@ body
 #site_main
 {
     background-color: var(--lighter);
-    padding-top: 6rem;
+    padding-top: 9rem;
 }
 
 #planning,
@@ -181,11 +187,32 @@ body
 h4
 {
     color: var(--primary);
+    font-size: 2rem;
 }
 
 .card_demo
 {
     background-color: var(--secondary);
+    border-radius: 30px;
+    padding: 3rem;
+    /* margin: auto; */
+    & img
+    {
+        margin-bottom: -3rem;
+        width: 100%;
+    }
+    & p
+    {
+        font-size: 1.5rem;
+        color: var(--dark);
+    }
+    & h4
+    {
+        & i
+        {
+            font-size: 12rem;
+        }
+    }
 }
 
 .blue_btn
@@ -193,6 +220,11 @@ h4
     background-color: var(--primary);
     color: var(--lighter);
     text-decoration: none;
+    width:80%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 1.5rem;
 }
 /* #endregion Main */
 
