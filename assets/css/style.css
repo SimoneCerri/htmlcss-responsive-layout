@@ -1,0 +1,41 @@
+/* #region Common */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion Common */
+
+/* #region Utilities */
+:root
+{
+    --primary: #0084fdFF;
+    --secondary: #b5ddffFF;
+    --different: #9792e4FF;
+    --dark: #333333FF;
+    --darker: #000000FF;
+    --lighter: #ffffffFF;
+}
+/* #endregion Utilities */
+
+/* #region Debug */
+
+/* #endregion Debug */
+
+/* #region Header */
+
+/* #endregion Header */
+
+/* #region Main */
+
+/* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
+
+/* #region MediaQuery */
+
+/* #endregion MediaQuery */
