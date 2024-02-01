@@ -78,19 +78,73 @@
 /* #endregion Utilities */
 
 /* #region Debug */
+.debug #site_header
+{
+    height: 100px;
+}
 
+.debug #demo
+{
+    height: 300px;
+}
+
+.debug #planning
+{
+    height: 300px;
+}
+
+.debug #testimonial
+{
+    height: 300px;
+}
+
+.debug #benefits
+{
+    height: 300px;
+}
+
+.debug #about_us
+{
+    height: 300px;
+}
+
+.debug #get_started
+{
+    height: 300px;
+}
+
+.debug #site_footer
+{
+    height: 100px;
+}
 /* #endregion Debug */
 
 /* #region Header */
-
+#site_header
+{
+    background-color: var(--primary);
+}
 /* #endregion Header */
 
 /* #region Main */
+#site_main
+{
+    background-color: var(--lighter);
+}
 
+#planning,
+#benefits,
+#get_started
+{
+    background-color: var(--different);
+}
 /* #endregion Main */
 
 /* #region Footer */
-
+#site_footer
+{
+    background-color: var(--dark);
+}
 /* #endregion Footer */
 
 /* #region MediaQuery */
