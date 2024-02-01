@@ -10,6 +10,11 @@ body
 {
     font-family: "Open Sans", sans-serif;
 }
+
+img
+{
+    width: 100%;
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -174,7 +179,15 @@ body
 #site_main
 {
     background-color: var(--lighter);
-    padding-top: 9rem;
+    /* padding-top: 9rem;
+    padding-bottom: 9rem; */
+}
+
+#demo,
+#testimonial,
+#about_us
+{
+    padding: 9rem 0;
 }
 
 #planning,
@@ -182,6 +195,14 @@ body
 #get_started
 {
     background-color: var(--different);
+    padding: 9rem 0;
+    & h1
+    {
+        color: var(--lighter);
+        font-size: 3.5rem;
+        padding: 3rem 0;
+    }
+    
 }
 
 h4
@@ -226,6 +247,108 @@ h4
     border-radius: 40px;
     font-size: 1.5rem;
 }
+
+#planning
+{
+    & p 
+    {
+        color: var(--lighter);
+        padding: 3rem 0;
+    }
+    & .card_planning
+    {
+        background-color: var(--lighter);
+        border-radius: 60px;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+
+        & h4
+        {
+            color: var(--dark);
+        }
+    
+        & em
+        {
+            font-size: 1.5rem;
+        }
+    
+        & i
+        {
+            background-color: var(--different);
+            padding: 1.5rem 1.7rem;
+            border-radius: 50%;
+            font-size: 1.5rem;
+        }
+        }
+}
+
+#testimonial
+{
+    text-align: center;
+    & h4 
+    {
+        color: var(--dark);
+        padding-bottom: 3rem;
+        margin-top: -3rem;
+        font-size: 1.5rem;
+    }
+    & h2 
+    {
+        color: var(--different);
+        padding: 3rem 0;
+        font-size: 3rem;
+    }
+    & p
+    {
+        font-size:1.5rem ;
+    }
+    & .container 
+    {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    & .card_testimonial
+    {
+        background-color: var(--different);
+        border-radius: 60px;
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* gap: 3rem; */
+        & .face>img
+        {
+            border-radius: 50%;
+            object-fit: cover;
+            aspect-ratio: 1;
+            padding: 3rem;
+        }
+        & .thats_what_she_said
+        {
+            color: var(--lighter);
+            & p 
+            {
+                padding-bottom: 3rem;
+            }
+            & h3 
+            {
+                font-size: 1.5rem;
+                padding-bottom: 3rem;
+            }
+            
+        }
+    }
+}
+
 /* #endregion Main */
 
 /* #region Footer */
@@ -236,17 +359,17 @@ h4
 /* #endregion Footer */
 
 /* #region MediaQuery */
-@media screen and (min-width:768px)
+@media screen and (min-width:769px)
 {
     
 }
 
-@media screen and (min-width:992px)
+@media screen and (min-width:993px)
 {
 
 }
 
-@media screen and (min-width:1200px)
+@media screen and (min-width:1201px)
 {
 
 }
