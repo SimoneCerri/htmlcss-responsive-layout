@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body
+{
+    font-family: "Open Sans", sans-serif;
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -185,7 +190,9 @@ h4
 
 .blue_btn
 {
-    
+    background-color: var(--primary);
+    color: var(--lighter);
+    text-decoration: none;
 }
 /* #endregion Main */
 
