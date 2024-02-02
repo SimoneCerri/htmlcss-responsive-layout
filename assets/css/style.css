@@ -53,7 +53,7 @@ img
 {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 1rem; */
+    gap: 1rem;
 }
 
 .text_c
@@ -63,44 +63,37 @@ img
 
 .col_12
 {
-    width: calc( (100%/12) *12 );
-    padding: 0.5rem;
+    width: calc((100% / 12) * 12 - 1rem);
 }
 
 .col_8
 {
-    width: calc((100%/12)*8);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 8 - 1rem);
 }
 
 .col_6
 {
-    width: calc((100%/12)*6);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 6 - 1rem);
 }
 
 .col_4
 {
-    width: calc((100%/12)*4);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 4 - 1rem);
 }
 
 .col_3
 {
-    width: calc((100%/12)*3);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 3 - 1rem);
 }
 
 .col_2
 {
-    width: calc((100%/12)*2);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 2 - 1rem);
 }
 
 .col_1
 {
-    width: calc((100%/12)*1);
-    padding: 0.5rem;
+    width: calc((100% / 12) * 1 - 1rem);
 }
 /* #endregion Utilities */
 
@@ -153,6 +146,7 @@ img
     position: fixed;
     width: 100%;
     padding: 1rem 0;
+    z-index: 999;
 }
 
 .small_menu
@@ -243,13 +237,22 @@ h4
         color: var(--dark);
     }
 
-    & h4
+    & .card_title
     {
-        & i
-        {
-            font-size: 12rem;
-            /* max-width: 100%; */
-        }
+        font-size: 2.3rem;
+        color: var(--primary);
+        font-weight: bold;
+        /* display: inline; */
+        /* overflow: hidden; */
+        /* white-space: nowrap */
+    }
+
+    & span>i
+    {
+        font-size: 6rem;
+        color: var(--primary);
+        /* text-align: center; */
+        /* max-width: 100%; */
     }
 }
 
@@ -326,6 +329,7 @@ h4
 
     & p
     {
+        padding: 3rem 0;
         font-size:1.5rem ;
     }
 
@@ -608,44 +612,37 @@ h4
     }
     .col_12_m
     {
-        width: calc((100%/12)*12);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 12 - 1rem);
     }
     
     .col_8_m
     {
-        width: calc( ( 100%/ 12 ) * 8 );
-        padding: 0.5rem;
+        width: calc((100% / 12) * 8 - 1rem);
     }
     
     .col_6_m
     {
-        width: calc((100%/12)*6);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 6 - 1rem);
     }
     
     .col_4_m
     {
-        width: calc((100%/12)*4);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 4 - 1rem);
     }
     
     .col_3_m
     {
-        width: calc((100%/12)*3);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 3 - 1rem);
     }
     
     .col_2_m
     {
-        width: calc((100%/12)*2);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 2 - 1rem);
     }
     
     .col_1_m
     {
-        width: calc((100%/12)*1);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 1 - 1rem);
     }
 
     #testimonial
@@ -690,44 +687,37 @@ h4
     }
     .col_12_l
     {
-        width: calc((100%/12)*12);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 12 - 1rem);
     }
 
     .col_8_l
     {
-        width: calc((100%/12)*8);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 8 - 1rem);
     }
 
     .col_6_l
     {
-        width: calc((100%/12)*6);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 6 - 1rem);
     }
 
     .col_4_l
     {
-        width: calc((100%/12)*4);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 4 - 1rem);
     }
 
     .col_3_l
     {
-        width: calc((100%/12)*3);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 3 - 1rem);
     }
 
     .col_2_l
     {
-        width: calc((100%/12)*2);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 2 - 1rem);
     }
 
     .col_1_l
     {
-        width: calc((100%/12)*1);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 1 - 1rem);
     }
 }
 
@@ -774,44 +764,37 @@ h4
     }
     .col_12_xl
     {
-        width: calc((100%/12)*12);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 12 - 1rem);
     }
 
     .col_8_xl
     {
-        width: calc((100%/12)*8);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 8 - 1rem);
     }
 
     .col_6_xl
     {
-        width: calc((100%/12)*6);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 6 - 1rem);
     }
 
     .col_4_xl
     {
-        width: calc((100%/12)*4);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 4 - 1rem);
     }
 
     .col_3_xl
     {
-        width: calc((100%/12)*3);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 3 - 1rem);
     }
 
     .col_2_xl
     {
-        width: calc((100%/12)*2);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 2 - 1rem);
     }
 
     .col_1_xl
     {
-        width: calc((100%/12)*1);
-        padding: 0.5rem;
+        width: calc((100% / 12) * 1 - 1rem);
     }
 
     #planning
