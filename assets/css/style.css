@@ -31,7 +31,7 @@ img
 .container
 {
    max-width: 744px;
-   width: 80%;
+   width: 90%;
    margin: 0 auto;
    /* margin: 0 -1rem; */
 }
@@ -602,6 +602,10 @@ h4
 /* #region MediaQuery */
 @media screen and (min-width:769px)
 {
+    .container
+    {
+        max-width: 944px;
+    }
     .col_12_m
     {
         width: calc((100%/12)*12);
@@ -679,7 +683,11 @@ h4
 
 @media screen and (min-width:993px)
 {
-
+    .container
+    {
+        max-width: 1104px;
+        width: 80%;
+    }
     .col_12_l
     {
         width: calc((100%/12)*12);
@@ -725,7 +733,45 @@ h4
 
 @media screen and (min-width:1201px)
 {
+    #site_header
+    {
+        .container
+        {
+            align-items: center;
+        }
 
+        .small_menu
+        {
+            display: none;
+        }
+
+        .big_menu
+        {
+            display: block;
+
+            & a
+            {
+                text-decoration: none;
+                color: var(--lighter);
+                padding: 0 1rem;
+            }
+
+            & .btn_white
+            {
+                background-color: var(--lighter);
+                color: var(--dark);
+                border-radius: 30px;
+                font-weight: bold;
+                padding:0.5rem 1rem ;
+            }
+        }
+    }
+
+    .container
+    {
+        max-width: 1708px;
+        width: 70%;
+    }
     .col_12_xl
     {
         width: calc((100%/12)*12);
@@ -768,5 +814,23 @@ h4
         padding: 0.5rem;
     }
 
+    #planning
+    {
+        .container
+        {
+            width: 55%;
+            
+            .row
+            {
+                flex-wrap: nowrap;
+                /* gap: none; */
+
+                .card_planning
+                {
+                    height: 80%;
+                }
+            }
+        }
+    }
 }
 /* #endregion MediaQuery */
