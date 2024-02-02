@@ -61,39 +61,39 @@ img
     text-align: center;
 }
 
-.col-12
+.col_12
 {
-    width: calc((100/12)*12);
+    width: calc( (100%/12) *12 );
 }
 
-.col-8
+.col_8
 {
-    width: calc((100/12)*8);
+    width: calc((100%/12)*8);
 }
 
-.col-6
+.col_6
 {
-    width: calc((100/12)*6);
+    width: calc((100%/12)*6);
 }
 
-.col-4
+.col_4
 {
-    width: calc((100/12)*4);
+    width: calc((100%/12)*4);
 }
 
-.col-3
+.col_3
 {
-    width: calc((100/12)*3);
+    width: calc((100%/12)*3);
 }
 
-.col-2
+.col_2
 {
-    width: calc((100/12)*2);
+    width: calc((100%/12)*2);
 }
 
-.col-1
+.col_1
 {
-    width: calc((100/12)*1);
+    width: calc((100%/12)*1);
 }
 /* #endregion Utilities */
 
@@ -581,16 +581,118 @@ h4
 /* #region MediaQuery */
 @media screen and (min-width:769px)
 {
+    .col_12_m
+    {
+        width: calc((100%/12)*12);
+    }
     
+    .col_8_m
+    {
+        width: calc( ( 100%/ 12 ) * 8 );
+    }
+    
+    .col_6_m
+    {
+        width: calc((100%/12)*6);
+    }
+    
+    .col_4_m
+    {
+        width: calc((100%/12)*4);
+    }
+    
+    .col_3_m
+    {
+        width: calc((100%/12)*3);
+    }
+    
+    .col_2_m
+    {
+        width: calc((100%/12)*2);
+    }
+    
+    .col_1_m
+    {
+        width: calc((100%/12)*1);
+    }
 }
 
 @media screen and (min-width:993px)
 {
 
+    .col_12_l
+    {
+        width: calc((100%/12)*12);
+    }
+
+    .col_8_l
+    {
+        width: calc((100%/12)*8);
+    }
+
+    .col_6_l
+    {
+        width: calc((100%/12)*6);
+    }
+
+    .col_4_l
+    {
+        width: calc((100%/12)*4);
+    }
+
+    .col_3_l
+    {
+        width: calc((100%/12)*3);
+    }
+
+    .col_2_l
+    {
+        width: calc((100%/12)*2);
+    }
+
+    .col_1_l
+    {
+        width: calc((100%/12)*1);
+    }
 }
 
 @media screen and (min-width:1201px)
 {
+
+    .col_12_xl
+    {
+        width: calc((100%/12)*12);
+    }
+
+    .col_8_xl
+    {
+        width: calc((100%/12)*8);
+    }
+
+    .col_6_xl
+    {
+        width: calc((100%/12)*6);
+    }
+
+    .col_4_xl
+    {
+        width: calc((100%/12)*4);
+    }
+
+    .col_3_xl
+    {
+        width: calc((100%/12)*3);
+    }
+
+    .col_2_xl
+    {
+        width: calc((100%/12)*2);
+    }
+
+    .col_1_xl
+    {
+        width: calc((100%/12)*1);
+    }
 
 }
 /* #endregion MediaQuery */
