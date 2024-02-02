@@ -245,7 +245,7 @@ h4
     background-color: var(--primary);
     color: var(--lighter);
     text-decoration: none;
-    width:80%;
+    max-width: 300px;
     padding: 1rem;
     text-align: center;
     border-radius: 40px;
@@ -405,7 +405,7 @@ h4
             background-color: var(--different);
             border-radius: 30px;
             text-align: center;
-            width: 50%;
+            max-width: 300px;
             padding: 1rem 3rem;
             font-size: 1.5rem;
         }
@@ -416,13 +416,18 @@ h4
 {
     & .who_is_that_pokemon
     {
-        position: relative;
+        /* position: relative; */
     }
 
     & h1 
     {
         color: var(--different);
         font-size: 3rem;
+    }
+
+    & p 
+    {
+        font-size: 0.5rem;
     }
 
     & .about_description
@@ -436,13 +441,44 @@ h4
         }
     }
 
-    & .who_is_that_pokemon>img 
+    & .who_is_that_pokemon 
     {
-        border-radius: 50%;
-        object-fit: cover;
-        aspect-ratio: 1;
-        padding: 9rem;
-        position: absolute;
+        position: relative;
+
+        & p:first-child
+        {
+            color: var(--different);
+            font-size: 6rem;
+            position: absolute;
+            left: 45%;
+        }
+
+        & img
+        {
+          border-radius: 50%;
+          max-width: 400px;
+          /* aspect-ratio: 1; */
+          padding: 3rem;
+          /* position: absolute; */  
+        }
+        
+        & p 
+        {
+            color: var(--different);
+            font-size: 2.5rem;
+            padding: 3rem 0;
+        }
+
+        & a
+        {
+            text-decoration: none;
+            width: 10rem;
+            color: var(--lighter);
+            background-color: var(--different);
+            border-radius: 30px;
+            padding: 0.5rem 1rem;
+            text-align: center;
+        }
     }
 }
 /* #endregion Main */
