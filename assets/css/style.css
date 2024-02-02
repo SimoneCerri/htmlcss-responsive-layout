@@ -42,6 +42,10 @@ img
     justify-content: space-between;
 }
 
+.space_ev
+{
+    justify-content: space-evenly;
+}
 /* .direction_column
 {
     display: flex;
