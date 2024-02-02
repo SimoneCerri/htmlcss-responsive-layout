@@ -331,7 +331,7 @@ h4
 
     & .container 
     {
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
         /* display: flex;
         flex-direction: column;
         gap: 3rem; */
@@ -823,11 +823,16 @@ h4
             .row
             {
                 flex-wrap: nowrap;
+                /* display: inline-block; */
                 /* gap: none; */
 
+                .col_6_xl
+                {
+                    /* display: inline-block; */
+                }
                 .card_planning
                 {
-                    height: 80%;
+                    /* height: 80%; */
                 }
             }
         }
