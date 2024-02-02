@@ -70,31 +70,37 @@ img
 .col_8
 {
     width: calc((100%/12)*8);
+    padding: 0.5rem;
 }
 
 .col_6
 {
     width: calc((100%/12)*6);
+    padding: 0.5rem;
 }
 
 .col_4
 {
     width: calc((100%/12)*4);
+    padding: 0.5rem;
 }
 
 .col_3
 {
     width: calc((100%/12)*3);
+    padding: 0.5rem;
 }
 
 .col_2
 {
     width: calc((100%/12)*2);
+    padding: 0.5rem;
 }
 
 .col_1
 {
     width: calc((100%/12)*1);
+    padding: 0.5rem;
 }
 /* #endregion Utilities */
 
@@ -372,6 +378,7 @@ h4
 
 #benefits
 {
+    
     h2 {
             color: var(--lighter);
             font-size: 3rem;
@@ -428,15 +435,17 @@ h4
         /* position: relative; */
     }
 
-    & h1 
+    & h2 
     {
         color: var(--different);
-        font-size: 3rem;
+        font-size: 2.5rem;
+        padding: 3rem 0;
     }
 
     & p 
     {
         font-size: 0.5rem;
+        padding: 1rem 0;
     }
 
     & .about_description
@@ -457,9 +466,11 @@ h4
         & p:first-child
         {
             color: var(--different);
-            font-size: 6rem;
+            font-size: 5rem;
             position: absolute;
-            left: 45%;
+            padding: 0;
+            left: 50%;
+            top: 5%;
         }
 
         & img
@@ -474,7 +485,7 @@ h4
         & p 
         {
             color: var(--different);
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding: 3rem 0;
         }
 
@@ -536,7 +547,8 @@ h4
         width: 300px;
         border-radius: 30px;
         padding: 1rem 1rem;
-        display: block;
+        margin: 3rem;
+        display: inline-block;
     }
 
     & ul 
@@ -593,36 +605,43 @@ h4
     .col_12_m
     {
         width: calc((100%/12)*12);
+        padding: 0.5rem;
     }
     
     .col_8_m
     {
         width: calc( ( 100%/ 12 ) * 8 );
+        padding: 0.5rem;
     }
     
     .col_6_m
     {
         width: calc((100%/12)*6);
+        padding: 0.5rem;
     }
     
     .col_4_m
     {
         width: calc((100%/12)*4);
+        padding: 0.5rem;
     }
     
     .col_3_m
     {
         width: calc((100%/12)*3);
+        padding: 0.5rem;
     }
     
     .col_2_m
     {
         width: calc((100%/12)*2);
+        padding: 0.5rem;
     }
     
     .col_1_m
     {
         width: calc((100%/12)*1);
+        padding: 0.5rem;
     }
 
     #testimonial
@@ -640,6 +659,22 @@ h4
             }
         }
     }
+
+    #about_us
+    {
+        .who_is_that_pokemon
+        {
+            p:first-child
+            {
+                color: var(--different);
+                font-size: 3rem;
+                position: absolute;
+                left: 65%;
+                top: 5%;
+                padding: 0;
+            }
+        }
+    }
 }
 
 @media screen and (min-width:993px)
@@ -648,36 +683,43 @@ h4
     .col_12_l
     {
         width: calc((100%/12)*12);
+        padding: 0.5rem;
     }
 
     .col_8_l
     {
         width: calc((100%/12)*8);
+        padding: 0.5rem;
     }
 
     .col_6_l
     {
         width: calc((100%/12)*6);
+        padding: 0.5rem;
     }
 
     .col_4_l
     {
         width: calc((100%/12)*4);
+        padding: 0.5rem;
     }
 
     .col_3_l
     {
         width: calc((100%/12)*3);
+        padding: 0.5rem;
     }
 
     .col_2_l
     {
         width: calc((100%/12)*2);
+        padding: 0.5rem;
     }
 
     .col_1_l
     {
         width: calc((100%/12)*1);
+        padding: 0.5rem;
     }
 }
 
@@ -687,36 +729,43 @@ h4
     .col_12_xl
     {
         width: calc((100%/12)*12);
+        padding: 0.5rem;
     }
 
     .col_8_xl
     {
         width: calc((100%/12)*8);
+        padding: 0.5rem;
     }
 
     .col_6_xl
     {
         width: calc((100%/12)*6);
+        padding: 0.5rem;
     }
 
     .col_4_xl
     {
         width: calc((100%/12)*4);
+        padding: 0.5rem;
     }
 
     .col_3_xl
     {
         width: calc((100%/12)*3);
+        padding: 0.5rem;
     }
 
     .col_2_xl
     {
         width: calc((100%/12)*2);
+        padding: 0.5rem;
     }
 
     .col_1_xl
     {
         width: calc((100%/12)*1);
+        padding: 0.5rem;
     }
 
 }
